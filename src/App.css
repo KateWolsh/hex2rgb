@@ -1,0 +1,26 @@
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+.input {
+  margin-bottom: 10px;
+  height: 40px;
+  width: 200px;
+  border: solid 1px black;
+}
+
+.result {
+  font-size: 18px;
+  height: 40px;
+  width: 205px;
+  border: solid 1px black;
+  background: rgba(0, 0, 0, 0.2); /* полупрозрачный черный фон */
+  color: white;
+}
